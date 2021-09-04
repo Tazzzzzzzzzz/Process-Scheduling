@@ -14,8 +14,6 @@ printf("\n");
 
 if(choice == 1){
 	/*
- *Author: Mohammad Tasbeel Arif
- * StudentID:17067738
  *  Purpose: First come first serve is a algorithim that allocates the CPU's resources
  * 	based on when the process arived. 
  * 	Explanation: In FCSFS the first process that arrives is the first process that is completed.
@@ -104,8 +102,6 @@ if(choice == 1){
 	
 }else if(choice == 2){
 	/*
- *Author: Mohammad Tasbeel Arif
- * StudentID:17067738
  *  Purpose:To complete the shortest job first based on burst time.
  * 	Explanation: The code takes in all values needed. It than sorts the burst time with a bubble sort
  * 	in accending order. It takes into account the arrival time. If it is 0 it will be done first.
@@ -212,8 +208,6 @@ if(choice == 1){
 	fprintf(output_file,"Average Turn Around Time: %f\nAverage WaitTime:%f",atat,awt);
 }else if(choice == 3){
 		/*
- *Author: Mohammad Tasbeel Arif
- * StudentID:17067738
  *  Purpose:The purpose of this code is to implement the round robin secheduling alogrithim.
  * 	Explanation: Round Robin gives every processes a fair share of cpu resources. Its preemptive processes
  *	where each processes is assigned a fixed slice of time.
